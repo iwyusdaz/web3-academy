@@ -1,0 +1,155 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-13T00:00:00Z",
+  "title": "Design System: Web3 Academy",
+  "extensions": {
+    "colorMeta": {
+      "chart-stock": { "role": "neutral", "displayName": "Chart Stock", "canonical": "#f2f0e8", "tonalRamp": ["#21201b", "#3b3a32", "#57554a", "#757264", "#96927f", "#bab5a1", "#d8d3c2", "#f2f0e8"] },
+      "chart-stock-shade": { "role": "neutral", "displayName": "Chart Stock Shade", "canonical": "#eae6d9", "tonalRamp": ["#22201a", "#3d3a30", "#5a5647", "#79745f", "#9b947b", "#bdb69c", "#dbd5c2", "#eae6d9"] },
+      "chart-stock-deep": { "role": "neutral", "displayName": "Chart Stock Deep", "canonical": "#e2ddcc", "tonalRamp": ["#232019", "#403b2c", "#5d5741", "#7c7459", "#9e9575", "#c0b78f", "#ddd5b9", "#e2ddcc"] },
+      "indigo-ink": { "role": "neutral", "displayName": "Indigo Ink", "canonical": "#1e2a38", "tonalRamp": ["#0c1218", "#16202b", "#1e2a38", "#2e4054", "#40566e", "#5c728a", "#8ba0b5", "#cdd8e2"] },
+      "indigo-ink-soft": { "role": "neutral", "displayName": "Indigo Ink Soft", "canonical": "#46566a", "tonalRamp": ["#131920", "#1f2833", "#2c3a49", "#3c4d60", "#46566a", "#63778c", "#8ba0b2", "#c9d5df"] },
+      "indigo-ink-faint": { "role": "neutral", "displayName": "Indigo Ink Faint", "canonical": "#5c6b7c", "tonalRamp": ["#161b21", "#232b34", "#313c48", "#435160", "#5c6b7c", "#7c8b9c", "#a5b2c0", "#d6dde4"] },
+      "hairline": { "role": "neutral", "displayName": "Hairline", "canonical": "#d9d4c4", "tonalRamp": ["#232119", "#3e3a2e", "#595445", "#746e5d", "#948e7b", "#b7b1a0", "#d9d4c4", "#efece4"] },
+      "hairline-strong": { "role": "neutral", "displayName": "Hairline Strong", "canonical": "#c0bbaa", "tonalRamp": ["#201d16", "#3a352a", "#554f3f", "#6f6855", "#918a76", "#b3ae9d", "#c0bbaa", "#d9d5c8"] },
+      "brass": { "role": "primary", "displayName": "Brass", "canonical": "#8a6318", "tonalRamp": ["#241804", "#3f2c08", "#5c410f", "#7a5713", "#8a6318", "#a1761f", "#c8942a", "#e7c074"] },
+      "brass-fill": { "role": "primary", "displayName": "Brass Fill", "canonical": "#a1761f", "tonalRamp": ["#241a05", "#413009", "#5e4510", "#7d5a14", "#a1761f", "#b98a26", "#d0a03a", "#e9c678"] },
+      "brass-bright": { "role": "primary", "displayName": "Brass Bright", "canonical": "#c8942a", "tonalRamp": ["#2a1d05", "#4a3409", "#6a4c0f", "#8f681a", "#c8942a", "#d6a63e", "#e4b95c", "#f2d491"] },
+      "brass-wash": { "role": "primary", "displayName": "Brass Wash", "canonical": "rgba(161, 118, 31, 0.09)", "tonalRamp": ["#241804", "#3f2c08", "#5c410f", "#7a5713", "#8a6318", "#a1761f", "#c8942a", "#e7c074"] },
+      "verdigris": { "role": "secondary", "displayName": "Verdigris", "canonical": "#2e6650", "tonalRamp": ["#08120e", "#0f241c", "#173428", "#1f4a38", "#2e6650", "#3e7d64", "#6aa48b", "#b8d9ca"] },
+      "verdigris-fill": { "role": "secondary", "displayName": "Verdigris Fill", "canonical": "#3e7d64", "tonalRamp": ["#0a140f", "#122a20", "#1a3a2c", "#254f3c", "#3e7d64", "#579578", "#7ab197", "#bfdccf"] },
+      "seal-ochre": { "role": "tertiary", "displayName": "Seal Red-Ochre", "canonical": "#8f3323", "tonalRamp": ["#1e0905", "#33120a", "#4d1c11", "#6d2818", "#8f3323", "#a13c2b", "#c2604f", "#e5b0a5"] },
+      "seal-ochre-fill": { "role": "tertiary", "displayName": "Seal Ochre Fill", "canonical": "#a13c2b", "tonalRamp": ["#200a06", "#35130b", "#501e12", "#6f2918", "#a13c2b", "#b3523d", "#c66f5a", "#e3b2a6"] },
+      "night-plate": { "role": "neutral", "displayName": "Night Plate", "canonical": "#101d2e", "tonalRamp": ["#05090f", "#0b1420", "#101d2e", "#1a2f47", "#264466", "#3a5c80", "#5e7ea3", "#a7bfd6"] },
+      "night-plate-2": { "role": "neutral", "displayName": "Night Plate Chrome", "canonical": "#16283e", "tonalRamp": ["#060a11", "#0c1622", "#16283e", "#20334d", "#2d4567", "#42608a", "#6687ad", "#adc4da"] },
+      "plate-hairline": { "role": "neutral", "displayName": "Plate Hairline", "canonical": "#2b4058", "tonalRamp": ["#0a0f16", "#131d29", "#2b4058", "#3d5876", "#527293", "#7291b1", "#9db6cd", "#cfdeea"] },
+      "star-ivory": { "role": "neutral", "displayName": "Star Ivory", "canonical": "#ece7d9", "tonalRamp": ["#24221c", "#403d33", "#5d594b", "#7b7664", "#9d9782", "#c2bca6", "#ece7d9", "#f7f4ec"] },
+      "plate-blue": { "role": "neutral", "displayName": "Muted Plate Blue", "canonical": "#a9b8cc", "tonalRamp": ["#131820", "#1e2836", "#2b3c50", "#3f5670", "#5a7591", "#7f9ab4", "#a9b8cc", "#d6e0ea"] },
+      "ivory-bright": { "role": "neutral", "displayName": "Ivory Bright", "canonical": "#f6f2e6", "tonalRamp": ["#26241d", "#44412f", "#625d45", "#827c5d", "#a8a179", "#cbc4a5", "#e6e0cd", "#f6f2e6"] }
+    },
+    "typographyMeta": {
+      "display": { "displayName": "Engraved Display (Marcellus)", "purpose": "Hero and page titles in sentence case — the engraving reads through the letterforms, never an uppercase transform." },
+      "headline": { "displayName": "Section Headline (Marcellus)", "purpose": "Section h2s under a hairline top rule with a 26px brass tick." },
+      "title": { "displayName": "Title (Marcellus)", "purpose": "Card, module, track and exhibit titles; glossary terms." },
+      "body": { "displayName": "Reading Body (Spectral)", "purpose": "Lesson reading and standfirsts at 68ch measure; system sans carries UI copy." },
+      "label": { "displayName": "Small-Caps Label (system sans)", "purpose": "11px/600/0.14em uppercase meta — plate captions, kind labels, stat labels. Never a kicker above a heading." },
+      "mono": { "displayName": "Chart Mono (system mono)", "purpose": "Code, addresses, catalog numbers, counts and scores only — tabular numerals on counted figures." }
+    },
+    "shadows": [
+      { "name": "lift-shadow", "value": "0 1px 2px rgba(30, 42, 56, 0.08), 0 10px 28px rgba(30, 42, 56, 0.1)", "purpose": "Under hover-lifted cards, the starmap plate and the search modal only — depth by intent, never at rest." },
+      { "name": "brass-hover-shadow", "value": "0 6px 18px rgba(138, 99, 24, 0.28)", "purpose": "Primary button hover only; a warm brass echo, not a second elevation level." }
+    ],
+    "motion": [
+      { "name": "star-draw", "value": "cubic-bezier(0.16, 1, 0.3, 1)", "purpose": "The one authored moment: constellation linework draws in once on load, 700ms per segment with staggered delays. Fully disabled under prefers-reduced-motion." },
+      { "name": "hero-in", "value": "cubic-bezier(0.16, 1, 0.3, 1)", "purpose": "Hero copy and plate rise once (650ms, 12px, 80ms stagger; plate at 200ms). Disabled under prefers-reduced-motion." },
+      { "name": "hover-lift", "value": "140ms ease", "purpose": "Buttons, cards and rows lift 1-2px on hover and return on release." },
+      { "name": "meridian-fill", "value": "400ms ease", "purpose": "Meridian progress bar width transition." },
+      { "name": "ring-fill", "value": "500ms ease", "purpose": "Brass arc gauge (progress ring) stroke-dashoffset transition." }
+    ],
+    "breakpoints": [
+      { "name": "sm", "value": "640px" },
+      { "name": "md", "value": "900px" },
+      { "name": "lg", "value": "1024px" }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Brass fill with ivory-bright text; the action instrument. Hover darkens to brass, lifts 2px and gains the brass shadow.",
+      "html": "<button class=\"ds-btn-primary\">Begin Plate I — From Web1 to Web3</button>",
+      "css": ".ds-btn-primary { display: inline-flex; align-items: center; justify-content: center; gap: 8px; background: var(--brass-fill); color: var(--ivory-bright); font-family: var(--sans); font-size: 15px; font-weight: 600; border: 1px solid transparent; border-radius: var(--radius-sm); padding: 11px 20px; cursor: pointer; text-decoration: none; line-height: 1.2; transition: transform 110ms ease, background 140ms ease, box-shadow 140ms ease; } .ds-btn-primary:hover { background: var(--brass); transform: translateY(-2px); box-shadow: 0 6px 18px rgba(138, 99, 24, 0.28); } .ds-btn-primary:active { transform: translateY(0); } .ds-btn-primary:focus-visible { outline: 2px solid var(--brass); outline-offset: 2px; } .ds-btn-primary:disabled { opacity: 0.45; cursor: not-allowed; transform: none; }"
+    },
+    {
+      "name": "Ghost Button",
+      "kind": "button",
+      "refersTo": "button-ghost",
+      "description": "Transparent secondary action with a hairline border; hover turns border and text brass with a 2px lift.",
+      "html": "<button class=\"ds-btn-ghost\">Study the case exhibits</button>",
+      "css": ".ds-btn-ghost { display: inline-flex; align-items: center; justify-content: center; gap: 8px; background: transparent; color: var(--ink); font-family: var(--sans); font-size: 15px; font-weight: 600; border: 1px solid var(--line-2); border-radius: var(--radius-sm); padding: 11px 20px; cursor: pointer; text-decoration: none; line-height: 1.2; transition: transform 110ms ease, border-color 140ms ease, color 140ms ease; } .ds-btn-ghost:hover { border-color: var(--brass); color: var(--brass); transform: translateY(-2px); } .ds-btn-ghost:active { transform: translateY(0); } .ds-btn-ghost:focus-visible { outline: 2px solid var(--brass); outline-offset: 2px; } .ds-btn-ghost:disabled { opacity: 0.45; cursor: not-allowed; transform: none; }"
+    },
+    {
+      "name": "Tag",
+      "kind": "chip",
+      "refersTo": "tag",
+      "description": "Small-caps pill for metadata, severity and outcomes; brass variant for accents, seal variants for severity.",
+      "html": "<span class=\"ds-tag\">Intermediate</span> <span class=\"ds-tag ds-tag-brass\">contested</span> <span class=\"ds-tag ds-tag-critical\">critical</span>",
+      "css": ".ds-tag { display: inline-flex; align-items: center; gap: 5px; font-family: var(--sans); font-size: 11px; font-weight: 650; letter-spacing: 0.1em; text-transform: uppercase; color: var(--ink-3); border: 1px solid var(--line-2); padding: 3px 10px; border-radius: 99px; white-space: nowrap; background: var(--paper); } .ds-tag-brass { color: var(--brass); border-color: rgba(138, 99, 24, 0.45); } .ds-tag-high { color: var(--seal); border-color: rgba(143, 51, 35, 0.45); } .ds-tag-critical { color: var(--ivory-bright); background: var(--seal-fill); border-color: var(--seal-fill); } .ds-tag-verdigris { color: var(--verdigris); border-color: rgba(46, 102, 80, 0.45); }"
+    },
+    {
+      "name": "Lesson Row",
+      "kind": "custom",
+      "description": "Ruled index row for a plate: mono order numeral, sans title, serif subline, and a line-grammar state mark. Hover lays brass wash and lifts 1px.",
+      "html": "<a class=\"ds-lesson-row\" href=\"#/lesson/what-is-web3\"><span class=\"ds-lesson-order\">I</span><span class=\"ds-lesson-main\"><span class=\"ds-lesson-title\">From Web1 to Web3</span><span class=\"ds-lesson-sub\">How the open web became readable, writable and owned</span></span><span class=\"ds-state-mark ds-state-open\" aria-label=\"Not yet read\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 18 18\" aria-hidden=\"true\"><circle cx=\"9\" cy=\"9\" r=\"7\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-dasharray=\"3 2.4\" /></svg></span></a>",
+      "css": ".ds-lesson-row { display: flex; align-items: center; gap: 18px; padding: 15px 6px; border-bottom: 1px solid var(--line); text-decoration: none; color: var(--ink); transition: background 140ms ease, transform 140ms ease; } .ds-lesson-row:hover { background: var(--brass-wash); transform: translateY(-1px); } .ds-lesson-row:focus-visible { outline: 2px solid var(--brass); outline-offset: 2px; } .ds-lesson-order { font-family: var(--mono); font-size: 12.5px; color: var(--ink-3); width: 44px; flex-shrink: 0; } .ds-lesson-main { flex: 1; min-width: 0; display: flex; flex-direction: column; gap: 2px; } .ds-lesson-title { font-weight: 600; font-size: 15.5px; } .ds-lesson-sub { color: var(--ink-2); font-family: var(--serif); font-size: 14px; } .ds-state-mark { display: inline-flex; align-items: center; justify-content: center; width: 18px; height: 18px; flex-shrink: 0; } .ds-state-open { color: var(--line-2); } .ds-state-done { color: var(--verdigris); }"
+    },
+    {
+      "name": "Callout (Legend Panel)",
+      "kind": "card",
+      "description": "Full hairline frame, drawn symbol, no colored edge band. Brass symbol for tips, seal for warnings, verdigris for deep dives.",
+      "html": "<aside class=\"ds-callout\"><div class=\"ds-callout-head\"><svg width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" aria-hidden=\"true\"><path d=\"M8 1.5 L9.6 6 H14 L10.4 9 L11.8 14 L8 11 L4.2 14 L5.6 9 L2 6 H6.4 Z\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.3\" stroke-linejoin=\"round\" /></svg><span class=\"ds-callout-title\">Gas is metered, not magic</span><span class=\"ds-callout-kind\">Tip</span></div><div class=\"ds-callout-body\">Every operation on the chain costs gas — the meter that prices computation. Reading the meter is reading the machine.</div></aside>",
+      "css": ".ds-callout { border-radius: var(--radius); border: 1px solid var(--line-2); background: var(--paper-2); padding: 16px 18px; } .ds-callout-head { display: flex; align-items: center; gap: 9px; margin-bottom: 8px; } .ds-callout-head svg { color: var(--brass); flex-shrink: 0; } .ds-callout-title { font-weight: 650; font-size: 14.5px; color: var(--ink); } .ds-callout-kind { margin-left: auto; font-family: var(--sans); font-size: 10.5px; font-weight: 650; text-transform: uppercase; letter-spacing: 0.12em; color: var(--ink-3); } .ds-callout-body { color: var(--ink-2); font-family: var(--serif); font-size: 15px; line-height: 1.6; } .ds-callout.ds-warning { border-color: rgba(143, 51, 35, 0.4); background: rgba(161, 60, 43, 0.05); } .ds-callout.ds-warning .ds-callout-head svg, .ds-callout.ds-warning .ds-callout-kind { color: var(--seal); } .ds-callout.ds-deep-dive .ds-callout-head svg, .ds-callout.ds-deep-dive .ds-callout-kind { color: var(--verdigris); }"
+    },
+    {
+      "name": "Night Plate Code Block",
+      "kind": "custom",
+      "description": "Code set on deep night stock: plate-2 header with mono language tag and copy button, star-ivory mono code, italic plate-blue caption.",
+      "html": "<figure class=\"ds-code-block\"><div class=\"ds-code-head\"><span class=\"ds-code-lang\">solidity</span><button type=\"button\" class=\"ds-code-copy\">Copy</button></div><pre><code>function withdraw(uint amount) public {\n    require(balances[msg.sender] &gt;= amount, \"insufficient\");\n    balances[msg.sender] -= amount;\n    payable(msg.sender).transfer(amount);\n}</code></pre><figcaption class=\"ds-code-caption\">The checks-effects-interactions order keeps state honest before value moves.</figcaption></figure>",
+      "css": ".ds-code-block { border: 1px solid var(--plate-line); border-radius: var(--radius); overflow: hidden; background: var(--plate); margin: 0; } .ds-code-head { display: flex; align-items: center; justify-content: space-between; padding: 8px 14px; border-bottom: 1px solid var(--plate-line); background: var(--plate-2); } .ds-code-lang { font-family: var(--mono); font-size: 11px; color: var(--star-muted); text-transform: uppercase; letter-spacing: 0.1em; } .ds-code-copy { background: transparent; border: 1px solid var(--plate-line); color: var(--star-muted); font-family: var(--sans); font-size: 12px; border-radius: 4px; padding: 3px 10px; cursor: pointer; transition: color 120ms ease, border-color 120ms ease; } .ds-code-copy:hover { color: var(--brass-bright); border-color: var(--brass-bright); } .ds-code-copy:focus-visible { outline: 2px solid var(--brass-bright); outline-offset: 2px; } .ds-code-block pre { margin: 0; padding: 16px; overflow-x: auto; } .ds-code-block code { font-family: var(--mono); font-size: 13.5px; line-height: 1.65; color: var(--star); } .ds-code-caption { padding: 8px 14px; border-top: 1px solid var(--plate-line); color: var(--star-muted); font-family: var(--serif); font-style: italic; font-size: 12.5px; }"
+    },
+    {
+      "name": "Meridian Progress Bar",
+      "kind": "custom",
+      "description": "Hatched brass fill inside a pill-ringed hairline track; the hatch switches to verdigris when the track completes.",
+      "html": "<div class=\"ds-meridian\" role=\"progressbar\" aria-valuenow=\"45\" aria-valuemin=\"0\" aria-valuemax=\"100\" aria-label=\"Beginner track progress\"><span style=\"width: 45%\"></span></div>",
+      "css": ".ds-meridian { height: 4px; background: transparent; border: 1px solid var(--line-2); border-radius: 99px; overflow: hidden; position: relative; } .ds-meridian span { display: block; height: 100%; background: repeating-linear-gradient(-60deg, var(--brass-fill), var(--brass-fill) 5px, transparent 5px, transparent 8px); transition: width 400ms ease; } .ds-meridian.ds-full span { background: var(--verdigris-fill); } .ds-meridian.ds-big { height: 6px; }"
+    },
+    {
+      "name": "State Mark (Line Grammar)",
+      "kind": "custom",
+      "description": "Practice state as engraved notation: solid verdigris check circle = done, dashed hairline open ring = unread. Never color alone.",
+      "html": "<span class=\"ds-state-wrap\"><span class=\"ds-step-mark ds-step-done\" aria-label=\"Step done\"><svg width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" aria-hidden=\"true\"><circle cx=\"10\" cy=\"10\" r=\"8.2\" fill=\"var(--verdigris)\" stroke=\"var(--verdigris)\" stroke-width=\"1.6\" /><path d=\"M6.4 10.2 L9 12.8 L13.8 7.6\" fill=\"none\" stroke=\"var(--ivory-bright)\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" /></svg></span><span class=\"ds-step-mark ds-step-open\" aria-label=\"Step open\"><svg width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" aria-hidden=\"true\"><circle cx=\"10\" cy=\"10\" r=\"8.2\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-dasharray=\"3.4 2.8\" /></svg></span></span>",
+      "css": ".ds-state-wrap { display: inline-flex; align-items: center; gap: 10px; } .ds-step-mark { display: inline-flex; align-items: center; justify-content: center; width: 20px; height: 20px; } .ds-step-done { color: var(--verdigris); } .ds-step-open { color: var(--line-2); } .ds-step-mark:focus-visible { outline: 2px solid var(--brass); outline-offset: 2px; border-radius: 50%; }"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Observer's Atlas",
+    "overview": "Web3 Academy is rendered as an engraved star chart — an atlas of invisible systems. The learner surveys one warm chart-stock ivory sky, chooses a constellation (a track), reads deep night plates calmly, does fieldwork with real tools, and records the result in a field log. Every surface behaves like archival chart paper: 1px hairline rules structure it, engraved serif letterforms title it, and nothing glows. The system refuses both the neon-terminal web3 default (the incumbent look, treated as the anti-reference) and the generic edtech card grid.\n\nThe material logic is strict. Light chart-paper ivory (#f2f0e8) is the reading ground; deep night plates (#101d2e) are reserved for things set apart for study — code blocks, diagrams, exhibit headers, and the signature constellation chart. Brass is the atlas's one metal: it marks action, active states, accents and completed stars. Verdigris marks completion everywhere else; seal red-ochre is rationed to warnings and severity. Color never carries state alone — completion, progress and practice states are drawn as line marks (solid strokes, dashed open rings, filled circles), in the manner of engraved notation.\n\nMotion is a single authored moment, not a habit: the constellation linework draws in once on load with an exponential ease-out, the hero copy rises once, and everything else transitions quietly in 100-200ms. All of it is disabled under prefers-reduced-motion.",
+    "keyCharacteristics": [
+      "Warm chart-stock ivory ground (#f2f0e8) for reading; deep night plates (#101d2e) only for code, diagrams, exhibit headers and the star chart.",
+      "Indigo-slate ink (#1e2a38) with a three-step soft/faint ladder for hierarchy; hairline rules (#d9d4c4 / #c0bbaa) instead of boxes and shadows.",
+      "Brass (#8a6318 text / #a1761f fill / #c8942a bright on plates) as the single accent metal for action, active states and completed stars; verdigris (#2e6650) for completion marks; seal red-ochre (#8f3323) for warnings.",
+      "Marcellus (engraved serif) display set in sentence case; Spectral reading serif for body; system sans for UI chrome; monospace rationed to code, data and numerals.",
+      "State drawn as line grammar — solid check = done, dashed open ring = unread, solid brass ring = established fact — never color alone.",
+      "Signature component: the StarMap constellation chart of all 33 real lessons, with hover-highlight per constellation and a one-time draw-in animation.",
+      "Hatched meridian progress bars, ruled index rows instead of card grids, pill tags for metadata, 44px minimum touch targets, visible brass focus rings."
+    ],
+    "rules": [
+      { "name": "The Gilding Rule", "body": "Brass is the atlas's one metal: it gilds action, active elements, accents and completed stars, and it may appear as engraved ornament (heading ticks, list markers, completed stars on the chart) beyond strict action-only use. Verdigris is the completion color everywhere else — off-chart completion marks are always verdigris, never brass. The two never swap roles.", "section": "colors" },
+      { "name": "The Four-Ink Plate Rule", "body": "A night plate carries at most four inks: star ivory (primary engraving), muted plate blue (secondary text), brass bright (the metal caught by plate light), and one status tone when the plate must speak state (e.g. seal ochre fill on a sev-critical tag, lifted verdigris/seal tints for outcome tags). Never add a fifth ink to a plate; the bounded set is what keeps plates legible.", "section": "colors" },
+      { "name": "The Sentence-Case Masthead Rule", "body": "Marcellus headings are set in sentence case — the engraving reads through the letterforms themselves, not through a text transform. No uppercase display headings, no letterspaced mastheads.", "section": "typography" },
+      { "name": "The Mono Ration", "body": "Monospace appears only for code, data and numerals — code blocks, inline code, addresses, catalog numbers, counts, scores, order numerals. Never for body copy, titles or UI labels.", "section": "typography" },
+      { "name": "The Hairline Frame Rule", "body": "Structure comes from 1px hairline frames and interior rules — full frames, never single accent edges — not from boxes, fills or shadows.", "section": "layout" },
+      { "name": "The Lift-on-Intent Rule", "body": "Surfaces are flat at rest. Elevation appears only as a response to state — a card or row lifts 1-2px with the lift shadow on hover, a button lifts 2px — and returns on release. Depth is never a permanent condition of a surface.", "section": "elevation" },
+      { "name": "The Line-Grammar Rule", "body": "State is drawn as line marks in the manner of engraved notation — solid verdigris check = done, dashed open ring = unread, solid brass ring = established fact, dashed ring with an '· inferred' suffix = varied report — never color alone.", "section": "components" }
+    ],
+    "dos": [
+      "Do keep light chart-paper (#f2f0e8) as the reading ground; reserve night plates (#101d2e) strictly for code blocks, diagrams, exhibit headers and the star chart.",
+      "Do keep brass text at #8a6318 on #f2f0e8 — that value passes AA; brass fill (#a1761f) carries ivory-bright (#f6f2e6) text.",
+      "Do draw state as line grammar — solid verdigris check = done, dashed open ring = unread, solid brass ring = established fact, dashed ring + \" · inferred\" suffix = varied report — never color alone.",
+      "Do set the star-map labels at no less than 13 SVG units (~9 CSS px at 1440); below that, hide in-chart labels and name constellations in the plate caption.",
+      "Do structure surfaces with 1px hairline frames and interior rules; give every interactive element the 2px brass :focus-visible ring and 44px tap targets.",
+      "Do keep the one authored motion moment (star draw-in + hero rise, cubic-bezier(0.16, 1, 0.3, 1)) and disable all of it under prefers-reduced-motion."
+    ],
+    "donts": [
+      "Don't use violet or lavender anywhere in the design — it is a hard brand commitment, not a preference.",
+      "Don't place an eyebrow/kicker label above a heading; small-caps meta belongs beside or below the title, never above it.",
+      "Don't use gradient text, or any neon/terminal glow treatment — the world refuses the neon web3 default.",
+      "Don't put colored left-border bands on cards or callouts; callouts speak through a full hairline frame and a drawn symbol.",
+      "Don't use monospace for anything but code, data and numerals.",
+      "Don't lighten brass text on paper for emphasis; #8a6318 is the floor that passes AA on #f2f0e8.",
+      "Don't stack a fifth ink onto a night plate — four inks (star ivory, plate blue, brass bright, one status tone) is the bound."
+    ]
+  }
+}
